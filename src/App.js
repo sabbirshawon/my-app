@@ -13,8 +13,8 @@ function App() {
       </Greet>
       <Greet name="Ahmed" bName="আহমদ"/>
       <Greet name="Shawon" bName="শাওন"/>
-      {/* <Welcome />
-      <Hello /> */}
+      <Welcome name="Sabbir" bName="সাব্বির"/>
+      {/* <Hello /> */}
     </div>
   );
 }
