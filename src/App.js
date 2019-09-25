@@ -4,17 +4,19 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/Message'
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Sabbir" bName="সাব্বির">
+      <Message />
+      {/* <Greet name="Sabbir" bName="সাব্বির">
         <button>Click</button>
       </Greet>
       <Greet name="Ahmed" bName="আহমদ"/>
       <Greet name="Shawon" bName="শাওন"/>
       <Welcome name="Sabbir" bName="সাব্বির"/>
-      {/* <Hello /> */}
+      <Hello /> */}
     </div>
   );
 }
